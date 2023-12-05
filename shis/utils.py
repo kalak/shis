@@ -59,7 +59,7 @@ def filter_image(name: str) -> bool:
     :return: ``True`` if the file name is an image, ``False`` otherwise.
     """
     _, ext = os.path.splitext(name)
-    if ext.lower() in ['.jpeg', '.jpg', '.png', '.tiff']:
+    if ext.lower() in ['.jpeg', '.jpg', '.png', '.tiff', '.webp']:
         return True
     return False
 
