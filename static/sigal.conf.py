@@ -51,7 +51,7 @@ img_size = (320, 320)
 # leaflet_provider = 'OpenStreetMap.Mapnik'
 
 # File extensions that should be treated as images
-# img_extensions = ['.jpg', '.jpeg', '.png', '.gif']
+img_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp']
 
 # Pilkit processor used to resize the image
 # (see http://pilkit.readthedocs.org/en/latest/#processors)
